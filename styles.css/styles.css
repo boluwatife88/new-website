@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+front-family: 'poppins', sans-serif;
+}
+
+body{
+  background-color: #080808
+  color aliceblue
+}
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../Images/F2476EB9-9D81-4788-B1D1-F1955845D70B_1_105_c.jpeg');
+  background-size: cover;
+  background-position:center;
+}
+.container{
+    padding:15px 10% ;
+}
+nav{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.navList{
+    display:inline-block;
+    justify-content:space-between ;
+    margin: 10px 20px;
+flex-wrap: wrap;
+}
+.navList a{
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   margin:10px 20px;
+   list-style: none;
+   text-decoration: none;
+}
