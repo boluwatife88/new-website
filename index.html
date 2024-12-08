@@ -1,38 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>boluwatife website</title>
-    <link rel="stylesheet" href="./styles.css/styles.css">
-</head>
-<body>
-    <header>
-     <div id="header">
-        <div class="container">
+    <link rel="stylesheet" href="styles.css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b943fcf349.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="home">
+      <div class="container">
         <nav>
-         <img width="100px" height="100px"
-         src="https://t3.ftcdn.net/jpg/06/21/58/54/360_F_621585419_DHg8gb0BW6V5R4Ycz9JhhUr6cHrBD2MA.jpg" alt="logo" class="logo">
-    
-<ul>
-<li class='navList'><a href="">Home</a></li>
-<li class='navList'><a href="">About</a></li>
-<li class='navList'><a href="">Skills</a></li>
-<li class='navList'><a href="">Portfolio</a></li>
-<li class='navList'><a href="">Contact me</a></li>
-</ul>
-
-
-
-
-
-
-
- 
+          <img
+            width="100px"
+            height="100px"
+            src="https://t3.ftcdn.net/jpg/06/21/58/54/360_F_621585419_DHg8gb0BW6V5R4Ycz9JhhUr6cHrBD2MA.jpg"
+            alt="logo"
+            class="logo"
+          />
+          <ul>
+            <li class="navList"><a href="#home">Home</a></li>
+            <li class="navList"><a href="#about">About</a></li>
+            <li class="navList"><a href="#skills">Skills</a></li>
+            <li class="navList"><a href="#services">services</a></li>
+            <li class="navList"><a href="contact">Contact</a></li>
+            <li class="navList"><a href="portfolio">portfolio</a></li>
+          </ul>
         </nav>
+        <div>
+          <h2>Frontend Developer</h2>
+          
+          <p>Hey I'm Boluwatife</p>
         </div>
+      </div>
     </div>
-        </header>
-    
-</body>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="styles.css/image/7C6EC86A-E12F-4F77-B2ED-B2BA525C0481.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore asperiores, quia debitis incidunt et quas. Adipisci
+              accusantium ullam voluptate qui quae in unde aut voluptatem
+              doloremque sapiente enim ratione, corporis iusto neque eaque
+              suscipit dolorem ad, rerum blanditiis dignissimos ipsum odit
+              asperiores. Aliquid libero maxime explicabo voluptatum? Voluptas,
+              inventore officiis?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onClick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+                <li>
+                  <span>Content Creation</span><br />
+                  Creating Optimized Content
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------skills--------->
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">my skills</h1>
+        <div class="skills-list">
+          <div>
+            <h3>Front-End Development</h3>
+            <ul>
+              <li>
+                <strong>HTML</strong>: Proficient in creating semantic and
+                accessible web pages using HTML.
+              </li>
+              <li>
+                <strong>CSS</strong>: Experienced in responsive design and CSS
+                preprocessors.
+              </li>
+              <li>
+                <strong>Frameworks</strong>: Proficient in React and Vue.js for
+                building dynamic user interfaces.
+              </li>
+            </ul>
+
+            <h3>Tools & Technologies</h3>
+            <ul>
+              <li>
+                <strong>Version Control</strong>: Git and GitHub for
+                collaboration and version management.
+              </li>
+              <li>
+                <strong>Build Tools</strong>: Webpack, Babel, and npm for
+                managing project dependencies.
+              </li>
+              <li>
+                <strong>Deployment</strong>: Familiar with deploying
+                applications on platforms like Heroku and Netlify.
+              </li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>
+                <strong>Problem Solving</strong>: Strong analytical skills with
+                a focus on debugging and optimization.
+              </li>
+              <li>
+                <strong>Team Collaboration</strong>: Experience working in Agile
+                environments and cross-functional teams.
+              </li>
+              <li>
+                <strong>Communication</strong>: Effective in conveying technical
+                concepts to non-technical stakeholders.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------services-------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
+              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
+              officia placeat beatae maiores quo dicta obcaecati animi
+              necessitatibus odio eveniet quisquam eius
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
+              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
+              officia placeat beatae maiores quo dicta obcaecati animi
+              necessitatibus odio eveniet quisquam eius.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
+              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
+              officia placeat beatae maiores quo dicta obcaecati animi
+              necessitatibus odio eveniet quisquam eius.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---portfolio---->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">my work</h1>
+        <div class="work list">
+          <div class="work">
+            <img src="styles.css/image/image.png" />
+            <div class="layer">
+              <h3>Food App</h3>
+              <p>
+                You can easily get this app to order pizza and all kinds of meal
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="styles.css/image/image copy.png" />
+            <div class="layer">
+              <h3>shopping APP</h3>
+              <p>You can order your wears</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="styles.css/image/image copy 2.png" />
+            <div clas="layer">
+              <h3>Gym App</h3>
+              <p>join the fitness team</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more </a>
+      </div>
+    </div>
+
+    <!---contact---->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >adigunboluwatife@gmail.com
+            </p>
+            <p><i class="fa-duotone fa-solid fa-phone"></i>08167429770</p>
+            <div class="social-icons">
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <a href="" class="btn btn2">Dowload CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright ©.MADE WITH <i class="fa-solid fa-heart"></i>By BOLUWATIFE</p>
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
 </html>
