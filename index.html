@@ -3,37 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>boluwatife website</title>
-    <link rel="stylesheet" href="styles.css/styles.css" />
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
     <script
-      src="https://kit.fontawesome.com/b943fcf349.js"
+      src="https://kit.fontawesome.com/275c8ac988.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div id="home">
+    <div id="header">
       <div class="container">
         <nav>
-          <img
-            width="100px"
-            height="100px"
-            src="https://t3.ftcdn.net/jpg/06/21/58/54/360_F_621585419_DHg8gb0BW6V5R4Ycz9JhhUr6cHrBD2MA.jpg"
-            alt="logo"
-            class="logo"
-          />
-          <ul>
-            <li class="navList"><a href="#home">Home</a></li>
-            <li class="navList"><a href="#about">About</a></li>
-            <li class="navList"><a href="#skills">Skills</a></li>
-            <li class="navList"><a href="#services">services</a></li>
-            <li class="navList"><a href="contact">Contact</a></li>
-            <li class="navList"><a href="portfolio">portfolio</a></li>
+          <p class="name"><span class="yoo2">B</span>oluwatife</p>
+          <ul id="sidemenu">
+            <li class="navlist"><a href="#home">Home</a></li>
+            <li class="navlist"><a href="#about">About</a></li>
+            <li class="navlist"><a href="#Services">services</a></li>
+            <li class="navlist"><a href="#Portfolio">Portfolio</a></li>
+            <li class="navlist"><a href="#Contact">Contact Me</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div>
-          <h2>Frontend Developer</h2>
-          
-          <p>Hey I'm Boluwatife</p>
+        <div id="header-text">
+          <h2 class="front">Front End Web Developer</h2>
+          <p class="down">
+            Hi,I'm <span class="yoo">Boluwatife</span><br />
+            from Lagos Nigeria
+          </p>
         </div>
       </div>
     </div>
@@ -41,45 +38,44 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1">
+          <div class="about-col-1"> 
             <img
-              src="styles.css/image/7C6EC86A-E12F-4F77-B2ED-B2BA525C0481.jpeg"
+              src="./image/7C6EC86A-E12F-4F77-B2ED-B2BA525C0481.jpeg"
               alt=""
             />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Inventore asperiores, quia debitis incidunt et quas. Adipisci
-              accusantium ullam voluptate qui quae in unde aut voluptatem
-              doloremque sapiente enim ratione, corporis iusto neque eaque
-              suscipit dolorem ad, rerum blanditiis dignissimos ipsum odit
-              asperiores. Aliquid libero maxime explicabo voluptatum? Voluptas,
-              inventore officiis?
+              Hi, I'm Boluwatife, a multidisciplinary artist with a passion for
+              front-end web development and hacking. With a keen eye for detail
+              and a love for storytelling, I design and develop responsive web
+              applications and capture stunning visuals that evoke emotion and
+              spark imagination.
             </p>
             <div class="tab-titles">
-              <p class="tab-links active-link" onClick="opentab('skills')">
+              <p class="tab-links active-link" onclick="opentab('skills')">
                 Skills
               </p>
-              <p class="tab-links" onClick="opentab('experience')">
+              <p class="tab-links" onclick="opentab('experience')">
                 Experience
               </p>
-              <p class="tab-links" onClick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+
             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
-                  <span>Content Creation</span><br />
-                  Creating Optimized Content
+                  <span>CyberSecurity</span><br />
+                  hacking, protect computers,network,and data from cyber threats
                 </li>
                 <li>
-                  <span>Content Creation</span><br />
-                  Creating Optimized Content
+                  <span>Web Developer</span><br />
+                  Creating Amazing User Experiences
                 </li>
                 <li>
-                  <span>Content Creation</span><br />
-                  Creating Optimized Content
+                  <span>CyberSecurity</span><br />protect computers,network,and
+                  data from cyber threats
                 </li>
               </ul>
             </div>
@@ -119,159 +115,96 @@
         </div>
       </div>
     </div>
-    <!------skills--------->
-    <div id="skills">
-      <div class="container">
-        <h1 class="sub-title">my skills</h1>
-        <div class="skills-list">
-          <div>
-            <h3>Front-End Development</h3>
-            <ul>
-              <li>
-                <strong>HTML</strong>: Proficient in creating semantic and
-                accessible web pages using HTML.
-              </li>
-              <li>
-                <strong>CSS</strong>: Experienced in responsive design and CSS
-                preprocessors.
-              </li>
-              <li>
-                <strong>Frameworks</strong>: Proficient in React and Vue.js for
-                building dynamic user interfaces.
-              </li>
-            </ul>
-
-
-            <h3>Soft Skills</h3>
-            <ul>
-              <li>
-                <strong>Problem Solving</strong>: Strong analytical skills with
-                a focus on debugging and optimization.
-              </li>
-              <li>
-                <strong>Team Collaboration</strong>: Experience working in Agile
-                environments and cross-functional teams.
-              </li>
-              <li>
-                <strong>Communication</strong>: Effective in conveying technical
-                concepts to non-technical stakeholders.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!------services-------->
+    <!---------services-------------->
     <div id="services">
       <div class="container">
-        <h1 class="sub-title">my services</h1>
+        <h1 class="sub-title">My Services</h1>
         <div class="services-list">
           <div>
             <i class="fa-solid fa-code"></i>
-            <h2>Web Design</h2>
+            <h2>Web Developer</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
-              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
-              officia placeat beatae maiores quo dicta obcaecati animi
-              necessitatibus odio eveniet quisquam eius
+              Lorem ipsum dolor sit.jdhejfjtngjgjfhf fhff ff hg g ghhfbg ghg
             </p>
-            <a href="#">Learn more</a>
+            <a href="#">Learn More</a>
           </div>
           <div>
-            <i class="fa-sharp fa-solid fa-crop-simple"></i>
-            <h2>UI/UX Design</h2>
+            <i class="fa-solid fa-lock"></i>
+            <h2>CyberSecurity</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
-              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
-              officia placeat beatae maiores quo dicta obcaecati animi
-              necessitatibus odio eveniet quisquam eius.
+              Lorem ipsum dolor sit.jdhejfjtngjgjfhf fhff ff hg g ghhfbg ghg
             </p>
-            <a href="#">Learn more</a>
+            <a href="#">Learn More</a>
           </div>
           <div>
-            <i class="fa-brands fa-app-store-ios"></i>
-            <h2>App Design</h2>
+            <i class="fa-solid fa-code"></i>
+            <h2>CyberSecurity specialist</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto
-              minus exercitationem deleniti! Asperiores, labore! Atque nulla,
-              officia placeat beatae maiores quo dicta obcaecati animi
-              necessitatibus odio eveniet quisquam eius.
+              Lorem ipsum dolor sit.jdhejfjtngjgjfhf fhff ff hg g ghhfbg ghg
             </p>
-            <a href="#">Learn more</a>
+            <a href="#">Learn More</a>
           </div>
         </div>
       </div>
     </div>
-    <!---portfolio---->
-    <div id="Portfolio">
+    <!--------------------My Portfolio----------------------->
+    <div id="portfolio">
       <div class="container">
-        <h1 class="sub-title">my work</h1>
-        <div class="work list">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
           <div class="work">
-            <img src="styles.css/image/image.png" />
+            <img src="./image/IMG_0105 (1).jpg" />
             <div class="layer">
-              <h3>Food App</h3>
-              <p>
-                You can easily get this app to order pizza and all kinds of meal
-              </p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="styles.css/image/image copy.png" />
-            <div class="layer">
-              <h3>shopping APP</h3>
-              <p>You can order your wears</p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="styles.css/image/image copy 2.png" />
-            <div clas="layer">
-              <h3>Gym App</h3>
-              <p>join the fitness team</p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
+              <h3>Fashion Store Mobile App</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
           </div>
         </div>
-        <a href="#" class="btn">see more </a>
+        <div class="work">
+          <img src="./image/IMG_0105 (1).jpg" />
+          <div class="layer">
+            <h3>Food App</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./image/IMG_0105 (1).jpg " />
+          <div class="layer">
+            <h3>barber and beauty Mobile App</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
       </div>
+      <a href="#" class="btn">See More</a>
     </div>
-
-    <!---contact---->
-    <div id="contact">
+    </div>
+    <!--------------------Contact------------------->
+    <div id="Contact">
       <div class="container">
         <div class="row">
           <div class="contact-left">
-            <h1 class="sub-title">contact me</h1>
+            <h1 class="sub-title">Contact Me</h1>
             <p>
-              <i class="fa-sharp fa-solid fa-paper-plane"></i
-              >adigunboluwatife@gmail.com
+              <i class="fa-regular fa-paper-plane"></i>
+              adigunboluwatife@gmail.com
             </p>
-            <p><i class="fa-duotone fa-solid fa-phone"></i>08167429770</p>
-            <div class="social-icons">
-              <a href="https://facebook.com"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+            <p><i class="fa-solid fa-phone"></i> 08167429770</p>
+            <div class="social-icon">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <a href="" class="btn btn2">Dowload CV</a>
+            <a href="" class="btn btn2">Download CV</a>
           </div>
           <div class="contact-right">
             <form>
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
-                name="email"
+                name="Email"
                 placeholder="Your Email"
                 required
               />
@@ -280,17 +213,19 @@
                 rows="6"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" class="btn btn2">submit</button>
             </form>
           </div>
         </div>
       </div>
       <div class="copyright">
         <p>
-          copyright ©.MADE WITH <i class="fa-solid fa-heart"></i>By BOLUWATIFE</p>
+          copyright @ Boluwatife just <i class="fa-solid fa-heart"></i> for
+          class project
         </p>
       </div>
     </div>
+
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
@@ -304,6 +239,15 @@
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
       }
     </script>
   </body>
