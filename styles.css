@@ -15,6 +15,7 @@ html {
 .yoo2 {
   color: #ff004f;
 }
+
 body {
   background: #080808;
   color: rgb(243, 238, 247);
@@ -66,6 +67,12 @@ nav {
 }
 .yoo2 {
   color: #ff004f;
+}
+.yoo3 {
+color: #ff004f;
+}
+.yoo4 {
+color: #ff004f;
 }
 .front {
   font-size: 20px;
@@ -272,10 +279,10 @@ nav {
 .contact-left p {
   margin-top: 30px;
 }
-.contact-right p i {
-  color: #ff004f;
+.contact-left p i {
+  color: #ff004f; 
   margin-right: 15px;
-  font-size: 25px;
+  font-size:25px ;
 }
 .social-icon {
   margin-top: 30px;
